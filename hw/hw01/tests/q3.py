@@ -15,6 +15,30 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> names_q1 == 2
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> names_q2 == 4
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> names_q3 == 2
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

@@ -13,6 +13,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> survivor_answer == 1
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

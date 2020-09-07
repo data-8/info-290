@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> dissimilarity
+          141
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

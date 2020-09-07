@@ -6,9 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 1 <= characters_q1 <= 5
+          >>> characters_q1 == 2
           True
-          >>> 1 <= characters_q2 <= 3
+          >>> characters_q2 == 1
           True
           """,
           'hidden': False,

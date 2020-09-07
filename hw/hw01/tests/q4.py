@@ -13,6 +13,22 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> jobs_q1 == 1
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> jobs_q2 == 2
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

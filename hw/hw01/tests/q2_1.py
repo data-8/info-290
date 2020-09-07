@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> characters_q1
+          2
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
