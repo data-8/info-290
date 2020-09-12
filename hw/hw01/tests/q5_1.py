@@ -6,15 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(dissimilarity, (int, float))
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> dissimilarity
+          >>> int(dissimilarity)
           141
           """,
           'hidden': False,
