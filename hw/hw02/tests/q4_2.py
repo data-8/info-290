@@ -13,6 +13,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> cumulative_sum_answer
+          2
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

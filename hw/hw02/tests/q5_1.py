@@ -30,6 +30,31 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> shortest
+          43
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> longest
+          96
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.round(average, 2)
+          70.9
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

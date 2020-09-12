@@ -12,6 +12,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> biggest_decrease
+          45
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

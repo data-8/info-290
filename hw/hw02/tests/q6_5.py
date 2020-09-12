@@ -14,6 +14,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> total_fruits_sold
+          638
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

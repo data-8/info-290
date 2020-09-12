@@ -13,6 +13,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> sum(difference_from_expected)
+          402289
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

@@ -15,6 +15,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> total_revenue
+          106.85
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
