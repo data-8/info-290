@@ -19,7 +19,7 @@ test = {
         },
         {
           'code': r"""
-          >>> sum(pter)
+          >>> round(sum(pter))
           107.0
           """,
           'hidden': False,
