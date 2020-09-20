@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> round(revised_dissimilarity)
+          506
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

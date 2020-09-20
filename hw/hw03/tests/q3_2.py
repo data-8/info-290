@@ -13,6 +13,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> fastest_growth.item(4) == 'Washington'
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

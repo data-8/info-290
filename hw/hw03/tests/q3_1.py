@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> round(us_birth_rate, 4)
+          0.0124
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

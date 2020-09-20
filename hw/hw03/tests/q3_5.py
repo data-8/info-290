@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> less_than_west_births
+          7
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

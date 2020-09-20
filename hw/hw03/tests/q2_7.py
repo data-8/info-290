@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> highPTER
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> assoc
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> west_births
+          979657
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

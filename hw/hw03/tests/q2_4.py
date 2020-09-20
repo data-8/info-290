@@ -16,6 +16,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> sum(pter)
+          107.0
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
