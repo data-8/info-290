@@ -15,7 +15,7 @@ test = {
         {
           'code': r"""
           >>> round(revised_dissimilarity)
-          506
+          506.0
           """,
           'hidden': False,
           'locked': False

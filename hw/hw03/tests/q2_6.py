@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> unemployment.take(0)
+          >>> pter_over_time.take(0)
           Date       | NEI     | NEI-PTER | Year | PTER
           1994-01-01 | 10.0974 | 11.172   | 1994 | 1.0746
           """,
