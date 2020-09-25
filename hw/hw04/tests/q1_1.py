@@ -20,6 +20,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> word_count(tale_chapters.column("Chapter text").item(0))
+          911
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

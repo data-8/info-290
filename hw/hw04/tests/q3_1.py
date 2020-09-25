@@ -15,6 +15,16 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> prof_names.column(0).item(0)
+          'African American Studies'
+          >>> type(prof_names.column(1).item(0))
+          numpy.ndarray
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

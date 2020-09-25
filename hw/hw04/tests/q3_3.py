@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> biggest_range_dept
+          'Economics'
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

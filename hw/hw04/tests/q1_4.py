@@ -14,6 +14,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> chapter_number("I. Chapter One\nIt was the best of times, it was...")
+          'I'
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
