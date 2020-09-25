@@ -18,6 +18,7 @@ test = {
         },
         {
           'code': r"""
+          >>> import numpy as np
           >>> prof_names.column(0).item(0)
           'African American Studies'
           >>> type(prof_names.column(1).item(0))

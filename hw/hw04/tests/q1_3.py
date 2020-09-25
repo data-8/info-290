@@ -14,7 +14,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        }
+        },
         {
           'code': r"""
           >>> character_count("The interrobang ?! is my favorite punctuation mark.")
