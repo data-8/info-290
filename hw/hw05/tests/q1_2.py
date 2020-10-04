@@ -16,6 +16,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> int(sum(answer_cleaned_causes_by_year.column(0)))
+          30090
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
