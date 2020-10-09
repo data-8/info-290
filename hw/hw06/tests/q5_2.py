@@ -1,12 +1,12 @@
 test = {
-  'name': 'Question 4_4',
+  'name': 'Question 1_4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> isinstance(strongest_earthquake_magnitude, float)
+          >>> statistic_choice in [1,2,3]
           True
           """,
           'hidden': False,
@@ -14,8 +14,8 @@ test = {
         },
         {
           'code': r"""
-          >>> strongest_earthquake_magnitude
-          8.2
+          >>> statistic_choice
+          3
           """,
           'hidden': False,
           'locked': False

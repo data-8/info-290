@@ -15,6 +15,16 @@ test = {
           """,
           'hidden': False,
           'locked': True
+        },
+        {
+          'code': r"""
+          >>> coin_model_probabilities[1]
+          0.5
+          >>> coin_model_probabilities[0]
+          0.5
+          """,
+          'hidden': False,
+          'locked': True
         }
       ],
       'scored': True,

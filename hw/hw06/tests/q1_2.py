@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> five_or_less
+          3
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
