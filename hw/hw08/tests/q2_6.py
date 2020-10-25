@@ -12,6 +12,15 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> # Make sure answer your answer is between 1 and 3!
+          >>> cutoff_one_percent == 3
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

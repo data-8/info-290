@@ -13,6 +13,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> true_proportion_intervals
+          9500
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

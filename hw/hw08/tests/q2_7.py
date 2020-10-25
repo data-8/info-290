@@ -12,6 +12,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> cutoff_ten_percent == 1
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
