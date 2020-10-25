@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> p_winning_after_two_flips
+          0.25
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

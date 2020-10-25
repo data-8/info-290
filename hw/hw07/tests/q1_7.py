@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> p_value > 0.05
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

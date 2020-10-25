@@ -12,6 +12,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> 0 <= simulate() <= 20
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

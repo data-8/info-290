@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> 7.5 <= (sum(test_statistics_under_null) / len(test_statistics_under_null)) <= 15
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

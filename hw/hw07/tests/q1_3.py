@@ -13,6 +13,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> reasonable_test_statistics
+          [3, 4, 6]
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

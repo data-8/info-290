@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> probability_of_false
+          0.2
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

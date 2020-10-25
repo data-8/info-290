@@ -11,6 +11,16 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> "If you're failing the test, try running the cell again!"
+          >>> "If that doesn't fix it, then something is wrong with your code."
+          >>> approximate_probability_of_false > 0.1
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
