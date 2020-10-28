@@ -14,8 +14,8 @@ test = {
         },
         {
           'code': r"""
-          >>> "If you're failing the test, try running the cell again!"
-          >>> "If that doesn't fix it, then something is wrong with your code."
+          >>> # "If you're failing the test, try running the cell again!"
+          >>> # "If that doesn't fix it, then something is wrong with your code."
           >>> approximate_probability_of_false > 0.1
           True
           """,
