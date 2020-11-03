@@ -6,7 +6,15 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> approximate_sd < 0.025
+          >>> approximate_sd <= 0.025
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> approximate_sd > 0.024
           True
           """,
           'hidden': False,

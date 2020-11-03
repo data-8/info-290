@@ -6,7 +6,15 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> min_sufficient or not min_sufficient 
+          >>> min_sufficient or not min_sufficient
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> min_sufficient
           True
           """,
           'hidden': False,

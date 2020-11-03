@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(predict_sample_mean_sd(10), 12.484735400972708)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

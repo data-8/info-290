@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> 7 <= empirical_sample_mean_sd(10) <= 17
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

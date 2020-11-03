@@ -18,6 +18,18 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(michelle_sample_mean_sd, 0.005000)
+          True
+          >>> smaller_sample_mean_sd > michelle_sample_mean_sd
+          True
+          >>> larger_sample_mean_sd < michelle_sample_mean_sd
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

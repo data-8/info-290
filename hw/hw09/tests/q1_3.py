@@ -13,6 +13,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> 88 < (sum(resampled_means) / 5000) < 95
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
