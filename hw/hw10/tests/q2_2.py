@@ -15,6 +15,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.close(r, 0.925032576418278)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

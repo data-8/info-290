@@ -13,6 +13,16 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> expected_slope_for_equal_spread
+          1
+          >>> expected_intercept_for_equal_spread
+          0
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

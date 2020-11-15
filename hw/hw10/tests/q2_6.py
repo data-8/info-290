@@ -12,6 +12,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> regression_changes
+          [False, True, True]
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> slope_implies_average_spread_above_average_outcome
+          False
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

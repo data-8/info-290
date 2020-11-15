@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(triple_record_vert_est, 168.452347)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

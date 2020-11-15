@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(spread_slope, 0.9539269682264327)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
