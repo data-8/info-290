@@ -1,17 +1,25 @@
 test = {
-  'name': 'Question 1.1',
+  'name': 'Question 1_1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> 0.99 <= expected_row_sum <= 1.01
+          >>> first_movement == 1 or first_movement == 2
           True
           """,
           'hidden': False,
           'locked': False
         },
+        {
+          'code': r"""
+          >>> first_movement == 1
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        }
       ],
       'scored': True,
       'setup': '',
