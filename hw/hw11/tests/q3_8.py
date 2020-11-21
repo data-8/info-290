@@ -12,6 +12,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(most_recent_wait, 97.85224539355451)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

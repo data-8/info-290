@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.round(faithful_residual_sd_from_formula,2) == 5.89
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

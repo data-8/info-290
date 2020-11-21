@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(sum(residuals(boston)**2), 36336.43166432808)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

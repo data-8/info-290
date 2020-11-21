@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.round(boston_residual_sd_from_formula,2) == 8.47
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

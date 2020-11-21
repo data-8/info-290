@@ -19,6 +19,15 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>>
+          >>> total_squared_error(5, 10)
+          2350.25
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

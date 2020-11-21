@@ -11,6 +11,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(best_total_squared_error, 10.975003568216033)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

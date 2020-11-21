@@ -12,6 +12,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(two_minutes_wait, 54.933679813020404)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

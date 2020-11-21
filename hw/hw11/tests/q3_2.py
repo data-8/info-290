@@ -12,6 +12,22 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(standard_units(d.column(0)).item(2), 0)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(correlation(d), -0.5272196186749782)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

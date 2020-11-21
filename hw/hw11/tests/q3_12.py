@@ -12,6 +12,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> question_12_choice[0]
+          3
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

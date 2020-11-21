@@ -11,6 +11,16 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(fit_line(faithful).item(0), 10.7296414)
+          True
+          >>> np.isclose(fit_line(faithful).item(1), 33.47439702)
+          True
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,
