@@ -16,10 +16,10 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(slope_from_minimize, -0.6498374231570391)
-          True
-          >>> np.isclose(slope_from_minimize, 1.1988619620992735)
-          True
+          >>> np.round(slope_from_minimize, 4)
+          -0.6498
+          >>> np.round(slope_from_minimize, 4)
+          1.1989
           """,
           'hidden': False,
           'locked': False
