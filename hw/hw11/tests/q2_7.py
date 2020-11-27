@@ -18,7 +18,7 @@ test = {
           'code': r"""
           >>> np.round(slope_from_minimize, 4)
           -0.6498
-          >>> np.round(slope_from_minimize, 4)
+          >>> np.round(intercept_from_minimize, 4)
           1.1989
           """,
           'hidden': False,

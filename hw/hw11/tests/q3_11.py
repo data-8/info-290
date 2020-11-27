@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 95 < lower_bound > 98
+          >>> 95 < lower_bound < 98
           True
           """,
           'hidden': False,
